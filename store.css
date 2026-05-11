@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: #3cd4fa;
+    color: white;
+    margin: 10px 10px;
+    border-radius: 15px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 50px 20px;
+    padding: 50px 20px;
+}
+/*content*/
+.content{height: 30vh;
+    background-image: url("tech2.png");
+    background-size: cover;
+    background-position: center;
+border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 10px 10px;
+}
+.Products{
+text-align: center;
+
+}
+.card{
+    text-align: center;
+     padding: 30px 20px;
+    margin: 10px 10px;
+    
+}
+
+.card img{
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+}
+
+button{ background-color: #42b72a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;}
+/*contact*/
+.p1 {  display: flex;
+    align-items: flex-start; 
+    gap: 10px; 
+    justify-content: center;
+    padding: 30px 20px;
+    margin: 10px 10px;
+   
+}
+
+
+    .contact{ display: flex;
+      justify-content: center;  
+    flex-direction: column; 
+    gap: 20px; 
+    width: 300px;
+    }
+    .contact-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    width: 300px;
+}
+
+.p1 input{  width: 100%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;}
+
+textarea{ width: 100%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;}
+
+    .Submit{border-radius: 6px;
+    background-color: #0d84d3;
+    justify-content: center;
+}
+
+footer{margin:20px;
+padding:15px;
+background-color:#3cd4fa ;
+border-radius: 15px;
+}
+@media screen and (max-width: 600px){
+   .navbar a {
+         margin: 5px;  
+        padding: 5px;
+    }
+
+    .card img { 
+        height: 180px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+.navbar a {
+         margin: 10px 5px;  
+        padding: 10px 5px;
+    }
+    .card img {
+        height: 220px;
+    }
+}
